@@ -49,7 +49,11 @@ class ImageCell: UICollectionViewCell {
         }
         
         tag = Int(PHImageManager.default().requestImage(for: model, targetSize: contentView.bounds.size, contentMode: .aspectFill, options: nil) { image, info in
-            self.imageView.image = image
+            if let diff = Calendar.current.dateComponents([.hour], from: model.creationDate ?? Date(), to: Date()).hour, diff > 24 {
+                self.imageView.image = image?.desaturatedImage()
+            } else {
+                self.imageView.image = image
+            }
         })
     }
 }
