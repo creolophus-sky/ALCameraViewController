@@ -21,9 +21,17 @@ class ImageCell: UICollectionViewCell {
         return imageView
     }()
 
+    let darkOverlay : UIView = {
+        let view = UIView()
+        view.backgroundColor = .black
+        view.alpha = 0
+        return view
+    }()
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         contentView.addSubview(imageView)
+        contentView.addSubview(darkOverlay)
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -33,6 +41,7 @@ class ImageCell: UICollectionViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         imageView.frame = bounds
+        darkOverlay.frame = bounds
     }
     
     override func prepareForReuse() {
@@ -40,9 +49,14 @@ class ImageCell: UICollectionViewCell {
         imageView.image = UIImage(named: "placeholder",
                                   in: CameraGlobals.shared.bundle,
                                   compatibleWith: nil)
+        darkOverlay.alpha = 0
     }
     
     func configureWithModel(_ model: PHAsset) {
+        if let creationDate = model.creationDate, let diff = Calendar.current.dateComponents([.hour], from: creationDate, to: Date()).hour,
+        diff > 24 {
+            self.darkOverlay.alpha = 0.7
+        }
         
         if tag != 0 {
             PHImageManager.default().cancelImageRequest(PHImageRequestID(tag))

@@ -283,7 +283,7 @@
 					};
 					FAF0583E1B31618D008E5592 = {
 						CreatedOnToolsVersion = 6.3.2;
-						DevelopmentTeam = 9E43V6CC9L;
+						DevelopmentTeam = UFVQR8GUDT;
 						LastSwiftMigration = 1110;
 						ProvisioningStyle = Automatic;
 					};
@@ -556,12 +556,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = 9E43V6CC9L;
+				DEVELOPMENT_TEAM = UFVQR8GUDT;
 				INFOPLIST_FILE = "Example/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alx.zero.CameraViewController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vp.zero.CameraViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
@@ -574,12 +574,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = 9E43V6CC9L;
+				DEVELOPMENT_TEAM = UFVQR8GUDT;
 				INFOPLIST_FILE = "Example/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 3.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.alx.zero.CameraViewController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vp.zero.CameraViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
