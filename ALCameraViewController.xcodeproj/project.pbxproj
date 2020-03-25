@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1F3C56291F701CA7009667E9 /* CroppingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC96FA11F5B5166003E53F4 /* CroppingParameters.swift */; };
-		47F29815242A22440064A7F0 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F29814242A22440064A7F0 /* UIImageExtensions.swift */; };
 		7AC96FA21F5B5166003E53F4 /* CroppingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC96FA11F5B5166003E53F4 /* CroppingParameters.swift */; };
 		7AD3B52D23521955002BAD73 /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3B52C23521955002BAD73 /* CropOverlay.swift */; };
 		7AEE9B1D23536865001D3C59 /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3B52C23521955002BAD73 /* CropOverlay.swift */; };
@@ -62,7 +61,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47F29814242A22440064A7F0 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		7AC96FA11F5B5166003E53F4 /* CroppingParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CroppingParameters.swift; sourceTree = "<group>"; };
 		7AD3B52C23521955002BAD73 /* CropOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropOverlay.swift; sourceTree = "<group>"; };
 		7C6AF41E1FB340CA006CB4ED /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -162,7 +160,6 @@
 				C4D9BA461CA73163004F70F7 /* UIButtonExtensions.swift */,
 				EBFE097C1CAF1D1A00A8C637 /* UIViewExtensions.swift */,
 				7AC96FA11F5B5166003E53F4 /* CroppingParameters.swift */,
-				47F29814242A22440064A7F0 /* UIImageExtensions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -371,7 +368,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C44543211CA68DDE00644380 /* VolumeControl.swift in Sources */,
-				47F29815242A22440064A7F0 /* UIImageExtensions.swift in Sources */,
 				FA7E6B9B1B429012000E1B14 /* ConfirmViewController.swift in Sources */,
 				FA5FA3431B3AFA2B00497C62 /* PermissionsView.swift in Sources */,
 				FAB50BFC1B413E8C009905B9 /* ImageFetcher.swift in Sources */,
